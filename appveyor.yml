@@ -8,3 +8,6 @@ install:
   - ps: Install-Product node 12
   # install modules
   - npm install
+
+# Don't actually build.
+build: off
